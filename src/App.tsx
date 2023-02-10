@@ -5,7 +5,7 @@ import './App.css';
 function App() {
   return (
     <div className="text-center">
-      <header className="text-2xl bg-slate-800 h-screen flex items-center flex-col justify-center text-white">
+      <header className="flex h-screen flex-col items-center justify-center bg-slate-800 text-2xl text-white">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.tsx</code> and save to reload.
