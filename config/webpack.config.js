@@ -439,7 +439,7 @@ module.exports = function (webpackEnv) {
                     compact: isEnvProduction,
                   },
                 },
-                customConfig.loaders.linariaLoader,
+                customConfig.loaders.linariaLoader(isEnvProduction),
               ],
             },
             // Process any JS outside of the app with Babel.

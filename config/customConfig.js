@@ -4,12 +4,12 @@ const graphqlLoader = {
   loader: require.resolve('graphql-tag/loader'),
 };
 
-const linariaLoader = {
+const linariaLoader = (isEnvProduction) => ({
   loader: require.resolve('@linaria/webpack-loader'),
   options: {
-    sourceMap: process.env.NODE_ENV !== 'production',
+    sourceMap: isEnvProduction,
   },
-};
+});
 
 const loaders = {
   graphqlLoader: graphqlLoader,
