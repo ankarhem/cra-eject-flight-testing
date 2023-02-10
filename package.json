@@ -5,6 +5,9 @@
   "dependencies": {
     "@apollo/client": "^3.7.7",
     "@babel/core": "^7.16.0",
+    "@linaria/babel-preset": "^4.4.1",
+    "@linaria/core": "^4.2.6",
+    "@linaria/react": "^4.3.4",
     "@pmmmwh/react-refresh-webpack-plugin": "^0.5.3",
     "@svgr/webpack": "^5.5.0",
     "@testing-library/jest-dom": "^5.16.5",
@@ -143,6 +146,7 @@
     ]
   },
   "devDependencies": {
+    "@linaria/webpack-loader": "^4.1.13",
     "graphql-tag": "^2.12.6",
     "prettier": "^2.8.4",
     "prettier-plugin-tailwindcss": "^0.2.2",

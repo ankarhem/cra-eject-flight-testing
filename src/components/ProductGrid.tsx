@@ -16,11 +16,11 @@ function ProductGrid() {
   }
 
   return (
-    <ul className="grid grid-cols-3 gap-2">
+    <ul className="grid grid-cols-3 gap-3">
       {data.products.edges.map((edge: any) => {
         const product = edge.node;
         return (
-          <li className="grid gap-2">
+          <li key={product.id} className="grid gap-1">
             <img
               src={product.featuredImage.url}
               alt={product.title}
