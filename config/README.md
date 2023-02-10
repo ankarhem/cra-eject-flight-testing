@@ -1,9 +1,17 @@
+## New files
+
+```
+tsconfig.json
+tailwind.config.js
+prettier.config.js
+```
+
 ## Tailwind
 
 ```
-    "prettier": "^2.8.4",
-    "prettier-plugin-tailwindcss": "^0.2.2",
-    "tailwindcss": "^3.2.6"
+"prettier": "^2.8.4",
+"prettier-plugin-tailwindcss": "^0.2.2",
+"tailwindcss": "^3.2.6"
 ```
 
 ## Graphql
