@@ -32,3 +32,13 @@ prettier.config.js
 "@linaria/core": "^4.2.6",
 "@linaria/react": "^4.3.4",
 ```
+
+### Unknown
+
+Might need to install these
+
+Graphql in babel/jest?
+
+```
+jest-transform-graphql
+```
