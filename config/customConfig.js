@@ -1,5 +1,8 @@
+const paths = require('./paths');
+
 const graphqlLoader = {
   test: /\.(graphql|gql)$/,
+  include: [paths.appSrc, paths.translationsSrc, paths.libSrc],
   exclude: /node_modules/,
   loader: require.resolve('graphql-tag/loader'),
 };
